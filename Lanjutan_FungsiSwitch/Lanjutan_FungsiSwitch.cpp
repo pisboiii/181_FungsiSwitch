@@ -33,7 +33,7 @@ void inputdata()
     cin >> bilangan2;
 }
 
-int main()
+int main() 
 {
     int pilihan;
     do
