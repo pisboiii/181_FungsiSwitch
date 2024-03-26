@@ -45,7 +45,7 @@ int main()
         cout << "3.perkalian" << endl;
         cout << "4. pembagian" << endl;
         cout << "5. keluar" << endl;
-        cin >> pilihan; 
+        cin >> pilihan;
 
         switch(pilihan)
         {
