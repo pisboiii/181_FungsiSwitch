@@ -71,7 +71,7 @@ int main()
             inputdata();
             cout << "\nhasil pembagian: " << pembagian(bilangan1, bilangan2) << endl;
             system("pause");
-            break;
+            break; 
         case 5:
             break;
         default:
