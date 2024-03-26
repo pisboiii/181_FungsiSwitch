@@ -25,7 +25,7 @@ float pembagian(float a, float b)
     return a / b;
 }  
 
-void inputdata()
+void inputdata() 
 {
     cout << "|nmassukan bilangan pertama: ";
     cin >> bilangan1;
