@@ -59,7 +59,7 @@ int main()
             inputdata();
                 cout << "\nhasil pengurangan: " << pengurangan(bilangan1, bilangan2) << endl;
             system("pause");
-            break;
+            break; 
 
         case 3:
             inputdata();
