@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "181_FungsiSwitch", "181_FungsiSwitch\181_FungsiSwitch.vcxproj", "{31BB4FD7-C661-4DC0-A3ED-833079837856}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lanjutan_FungsiSwitch", "Lanjutan_FungsiSwitch\Lanjutan_FungsiSwitch.vcxproj", "{F92E20C6-C3F8-4A68-9DD4-CA2C1CC269F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{31BB4FD7-C661-4DC0-A3ED-833079837856}.Release|x64.Build.0 = Release|x64
 		{31BB4FD7-C661-4DC0-A3ED-833079837856}.Release|x86.ActiveCfg = Release|Win32
 		{31BB4FD7-C661-4DC0-A3ED-833079837856}.Release|x86.Build.0 = Release|Win32
+		{F92E20C6-C3F8-4A68-9DD4-CA2C1CC269F9}.Debug|x64.ActiveCfg = Debug|x64
+		{F92E20C6-C3F8-4A68-9DD4-CA2C1CC269F9}.Debug|x64.Build.0 = Debug|x64
+		{F92E20C6-C3F8-4A68-9DD4-CA2C1CC269F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{F92E20C6-C3F8-4A68-9DD4-CA2C1CC269F9}.Debug|x86.Build.0 = Debug|Win32
+		{F92E20C6-C3F8-4A68-9DD4-CA2C1CC269F9}.Release|x64.ActiveCfg = Release|x64
+		{F92E20C6-C3F8-4A68-9DD4-CA2C1CC269F9}.Release|x64.Build.0 = Release|x64
+		{F92E20C6-C3F8-4A68-9DD4-CA2C1CC269F9}.Release|x86.ActiveCfg = Release|Win32
+		{F92E20C6-C3F8-4A68-9DD4-CA2C1CC269F9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
