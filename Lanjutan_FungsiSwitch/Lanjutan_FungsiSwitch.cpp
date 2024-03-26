@@ -10,7 +10,7 @@ int penjumlahan(int a, int b)
     return a + b;
 }
 
-int pengurangab(int a, int b)
+int pengurangan(int a, int b)
 {
     return a - b;
 } 
@@ -39,21 +39,48 @@ int main()
     do
     {
         system("CLS");
-    }
-    
-            
-}
+        cout << "menu kalkulator sederhana" << endl;
+        cout << "1. penjumlahan" << endl;
+        cout << "2. pengurangan" << endl;
+        cout << "3.perkalian" << endl;
+        cout << "4. pembagian" << endl;
+        cout << "5. keluar" << endl;
+        cin >> pilihan;
 
+        switch(pilihan)
+        {
+        case 1:
+            inputdata();
+            cout << "\nhasil penjumlahan: " << penjumlahan(bilangan1, bilangan2) << endl;
+            system("pause");
+            break;
+        
+        case 2:
+            inputdata();
+                cout << "\nhasil pengurangan: " << pengurangan(bilangan1, bilangan2) << endl;
+            system("pause");
+            break;
 
+        case 3:
+            inputdata();
+                cout << "\nhasil perkalian: " << perkalian(bilangan1, bilangan2) << endl;
+            system("pause");
+            break;
+         
+        case 4:
+            inputdata();
+            cout << "\nhasil pembagian: " << pembagian(bilangan1, bilangan2) << endl;
+            system("pause");
+            break;
+        case 5:
+            break;
+        default:
+            cout << "pilihan tidak valid1" << endl;
+            system("pause");
+            break;
+        }
+    } while (pilihan != 5);
 
-
-
-
-
-
-
-int main()
-{
-    std::cout << "Hello World!\n";
+        return 0;
 }
 
